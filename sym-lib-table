@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Xiao nRF52840")(type "Legacy")(uri "/home/lab/Downloads/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+)
