@@ -1,12 +1,12 @@
-Keycaps Gateron(144key, pbt, double-shot, 10 options) - 24$
+Keycaps Gateron(144key, pbt, double-shot, 10 options, charry spacing 19.05x19.05) - 24$
 
 https://www.aliexpress.us/item/3256804684533927.html?spm=a2g0o.productlist.main.9.70cc2ba12qRqVC&algo_pvid=01dab6f4-a177-40a4-95cc-697c6dbb3950&aem_p4p_detail=202305250038311101712459489020000620094&algo_exp_id=01dab6f4-a177-40a4-95cc-697c6dbb3950-4&pdp_npi=3%40dis%21USD%2137.12%2123.39%21%21%21%21%21%4021224cdb16850003115124971d074e%2112000033197803005%21sea%21US%210&curPageLogUid=FfkKOvhuEdk0&p4p_pvid=202305250038311101712459489020000620094_1
 ___
-Keycaps choc(50pcs, pbt, 4 options) - 22.5$
+Keycaps choc(50pcs, pbt, 4 options, 16.5x16.5) - 22.5$
 
 https://www.aliexpress.us/item/3256804371784456.html?spm=a2g0o.productlist.main.39.70cc2ba12qRqVC&algo_pvid=01dab6f4-a177-40a4-95cc-697c6dbb3950&aem_p4p_detail=202305250038311101712459489020000620094&algo_exp_id=01dab6f4-a177-40a4-95cc-697c6dbb3950-19&pdp_npi=3%40dis%21USD%2125.0%2122.5%21%21%21%21%21%4021224cdb16850003115124971d074e%2112000029606982948%21sea%21US%210&curPageLogUid=gWcBa1AfwRHu&p4p_pvid=202305250038311101712459489020000620094_4
 ___
-Keycaps choc(5pcs, pbt, 4 options) - 1.95$
+Keycaps choc(5pcs, pbt, 4 options, 16.5x16.5) - 1.95$
 
 https://www.aliexpress.us/item/3256804934881959.html?spm=a2g0o.detail.1000014.24.7b4a56e0CeClwS&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.281175.0&scm_id=1007.40050.281175.0&scm-url=1007.40050.281175.0&pvid=1e3bac31-731c-4ec1-8c80-396870c9ddd9&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40050.281175.0,pvid:1e3bac31-731c-4ec1-8c80-396870c9ddd9,tpp_buckets:668%232846%238109%231935&pdp_npi=3%40dis%21USD%212.78%211.95%21%21%21%21%21%402101eeda16849999654918554ec573%2112000031741395035%21rec%21US%21
 ___
@@ -18,7 +18,7 @@ Keycaps choc(10pcs, pbt, 16.5x16.5) - 3.5$
 
 https://chosfox.com/products/chocfox-cfx-choc-keycaps
 ___
-Keycaps choc(10, pbt, 17.5x16.5) - 3.5$
+Keycaps choc(10, pbt, 17.5x16.5, <-(x,y)) - 3.5$
 
 https://mkultra.click/mbk-choc-keycaps/
 
@@ -44,10 +44,16 @@ What are my options?
 
 	Pick a single switch and make one pcb with it.
 
-	See if you can make a pcb that is compatible with kailh and gateron swit	ches at the same time.
+	See if you can make a pcb that is compatible with kailh and gateron swit	ches at the same tim
+
+-----------------------------------------------------
 
 
-
+Constarains 
+	Spacing should be 17x17 (because all kecaps are 16.5x16.5 so extra 0.5mm for safety).
+	Using kailh choc (because gateron keycaps spacing is to big).
+	Make every columbn corespond to your fingers height. 
+	
 
 
 
