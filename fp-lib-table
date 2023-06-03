@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "Xiao nRF52840")(type "KiCad")(uri "/home/lab/Downloads/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD")(options "")(descr ""))
+  (version 7)
+  (lib (name "Split_footprints")(type "KiCad")(uri "${KIPRJMOD}/Split_footprints.pretty")(options "")(descr ""))
 )
