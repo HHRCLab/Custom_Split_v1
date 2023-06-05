@@ -581,7 +581,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 132.08 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00da0451-25b2-406a-af39-7dc6fd95d150)
-    (property "Reference" "SW3" (at 132.08 99.06 0)
+    (property "Reference" "SW11" (at 132.08 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 132.08 101.6 0)
@@ -598,7 +598,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW3") (unit 1)
+          (reference "SW11") (unit 1)
         )
       )
     )
@@ -607,11 +607,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 127 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01cfa218-2dab-4656-902d-f7fd1e386a21)
-    (property "Reference" "D3" (at 124.46 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D11" (at 129.54 109.22 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 129.54 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 129.54 111.76 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 131.445 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -624,7 +624,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D3") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -633,11 +633,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 127 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0637c5f8-c5d2-4ac7-a7fa-8a4015e91a49)
-    (property "Reference" "D4" (at 124.46 128.27 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D16" (at 129.54 127 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 129.54 128.27 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 129.54 129.54 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 131.445 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -650,7 +650,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D4") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -659,11 +659,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 180.34 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f7bd3ec-923b-4a61-a1bd-f306ee949e11)
-    (property "Reference" "D15" (at 177.8 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D14" (at 182.88 109.22 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 182.88 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 182.88 111.76 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 184.785 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -676,7 +676,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D15") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -711,11 +711,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 198.12 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 139b1aec-e930-45e6-882d-54ef47f2f11c)
-    (property "Reference" "D16" (at 195.58 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D5" (at 200.66 73.66 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 200.66 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 200.66 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 202.565 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -728,7 +728,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D16") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -781,7 +781,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 149.86 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cc3ae6b-f376-4f1c-8c01-e5bda0329741)
-    (property "Reference" "SW5" (at 149.86 63.5 0)
+    (property "Reference" "SW2" (at 149.86 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 149.86 66.04 0)
@@ -798,7 +798,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW5") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -807,7 +807,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 167.64 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ff645ea-acc9-4e89-a438-cb0fe5a86bd6)
-    (property "Reference" "SW9" (at 167.64 63.5 0)
+    (property "Reference" "SW3" (at 167.64 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 66.04 0)
@@ -824,7 +824,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW9") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -833,7 +833,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 132.08 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41560bd6-37f1-44fd-87f0-75de9488530e)
-    (property "Reference" "SW4" (at 132.08 116.84 0)
+    (property "Reference" "SW16" (at 132.08 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 132.08 119.38 0)
@@ -850,7 +850,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW4") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
     )
@@ -859,11 +859,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 198.12 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 473c7504-4d3f-454e-ba8e-e300dbb002ef)
-    (property "Reference" "D17" (at 195.58 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D10" (at 200.66 91.44 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 200.66 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 200.66 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 202.565 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -876,7 +876,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D17") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -885,11 +885,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 162.56 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dd928c0-b4cc-4d45-8b48-00c140fb6909)
-    (property "Reference" "D12" (at 160.02 128.27 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D18" (at 165.1 127 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 165.1 128.27 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 165.1 129.54 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 167.005 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -902,7 +902,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D12") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -911,11 +911,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 162.56 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 566af745-0c2c-481c-a1e9-0b1b2317a7ce)
-    (property "Reference" "D11" (at 160.02 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D13" (at 165.1 109.22 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 165.1 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 165.1 111.76 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 167.005 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -928,7 +928,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D11") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -937,7 +937,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6548cfa7-460d-4aa3-b697-d01c3037e222)
-    (property "Reference" "SW15" (at 185.42 99.06 0)
+    (property "Reference" "SW14" (at 185.42 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 185.42 101.6 0)
@@ -954,16 +954,16 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW15") (unit 1)
+          (reference "SW14") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 167.64 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 75afe596-5667-4d4e-a3f8-ea21067ebd96)
-    (property "Reference" "SW12" (at 167.64 116.84 0)
+    (property "Reference" "SW18" (at 167.64 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 119.38 0)
@@ -980,7 +980,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW12") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
     )
@@ -989,7 +989,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 167.64 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75d6fc60-827d-4fbd-8269-83523748b861)
-    (property "Reference" "SW11" (at 167.64 99.06 0)
+    (property "Reference" "SW13" (at 167.64 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 101.6 0)
@@ -1006,7 +1006,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW11") (unit 1)
+          (reference "SW13") (unit 1)
         )
       )
     )
@@ -1015,7 +1015,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 149.86 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7aecb43a-7b3d-43c3-b4eb-9f80aaa7a316)
-    (property "Reference" "SW6" (at 149.86 81.28 0)
+    (property "Reference" "SW7" (at 149.86 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 149.86 83.82 0)
@@ -1032,7 +1032,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW6") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -1041,11 +1041,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 162.56 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b1494cc-ecf3-4203-997f-e1be68f9ecf1)
-    (property "Reference" "D10" (at 160.02 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D8" (at 165.1 91.44 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 165.1 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 165.1 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 167.005 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1058,7 +1058,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D10") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1067,7 +1067,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 149.86 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b3929a6-d578-4b87-a16a-d92e4749bca1)
-    (property "Reference" "SW7" (at 149.86 99.06 0)
+    (property "Reference" "SW12" (at 149.86 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 149.86 101.6 0)
@@ -1084,7 +1084,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW7") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
     )
@@ -1093,7 +1093,7 @@
   (symbol (lib_id "Diode:1N4448W") (at 198.12 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80476f4e-892a-4926-85bf-853cc1928ab1)
-    (property "Reference" "D18" (at 195.58 110.49 0)
+    (property "Reference" "D15" (at 195.58 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4448W" (at 200.66 110.49 0)
@@ -1110,16 +1110,16 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D18") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Diode:1N4448W") (at 144.78 128.27 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 878863dd-0ea6-4984-84b1-fa8c71551a95)
-    (property "Reference" "D8" (at 142.24 128.27 0)
+    (property "Reference" "D17" (at 142.24 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4448W" (at 147.32 128.27 0)
@@ -1136,16 +1136,16 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D8") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 132.08 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 892f6eb8-f321-49ff-a289-7e4a560097bd)
-    (property "Reference" "SW2" (at 132.08 81.28 0)
+    (property "Reference" "SW6" (at 132.08 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 132.08 83.82 0)
@@ -1157,21 +1157,21 @@
     (property "Datasheet" "~" (at 132.08 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5793e338-cca0-4541-ad16-6ee4ad6e4687))
-    (pin "2" (uuid 7c0b103b-2e3c-4e58-a104-fba72b7b0f76))
+    (pin "1" (uuid e9773c82-9eac-4f1e-a975-f85fe030bb0d))
+    (pin "2" (uuid 9bf9d0a4-a11e-4407-83ed-72ec46b83793))
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW2") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 149.86 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 9457cc43-e54a-4361-b3d4-15c989d13ceb)
-    (property "Reference" "SW8" (at 149.86 116.84 0)
+    (property "Reference" "SW17" (at 149.86 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 149.86 119.38 0)
@@ -1188,7 +1188,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW8") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
     )
@@ -1197,11 +1197,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 180.34 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96f3f23b-369c-4f75-88b9-37f457e2e346)
-    (property "Reference" "D13" (at 177.8 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D4" (at 182.88 73.66 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 182.88 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 182.88 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 184.785 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1214,7 +1214,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D13") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1223,11 +1223,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 144.78 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b62e355-979b-4241-99ed-46559ba7d537)
-    (property "Reference" "D7" (at 142.24 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D12" (at 147.32 109.22 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 147.32 110.49 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 147.32 111.76 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 149.225 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1240,7 +1240,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D7") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1275,7 +1275,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 167.64 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a910fb05-437d-4e1e-8f05-4cc600ececbb)
-    (property "Reference" "SW10" (at 167.64 81.28 0)
+    (property "Reference" "SW8" (at 167.64 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 83.82 0)
@@ -1292,7 +1292,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW10") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -1301,7 +1301,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 203.2 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac66b756-e91d-476b-8280-48f0b0fa6ab5)
-    (property "Reference" "SW16" (at 203.2 63.5 0)
+    (property "Reference" "SW5" (at 203.2 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 203.2 66.04 0)
@@ -1318,7 +1318,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW16") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -1327,11 +1327,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 127 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad18a8bb-749f-4ff8-95ef-fc850a0c174c)
-    (property "Reference" "D2" (at 124.46 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D6" (at 129.54 91.44 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 129.54 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 129.54 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 131.445 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1344,7 +1344,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D2") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1353,7 +1353,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af844487-7876-408e-9ca4-814c75c7ac51)
-    (property "Reference" "SW13" (at 185.42 63.5 0)
+    (property "Reference" "SW4" (at 185.42 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 185.42 66.04 0)
@@ -1370,7 +1370,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW13") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -1379,11 +1379,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 144.78 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c917b9a3-f7e3-4a34-bd8f-485e3ac56619)
-    (property "Reference" "D6" (at 142.24 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D7" (at 147.32 91.44 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 147.32 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 147.32 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 149.225 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1396,7 +1396,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D6") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1405,11 +1405,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 162.56 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce5e575a-8588-4779-b5c0-9215b1a94af2)
-    (property "Reference" "D9" (at 160.02 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D3" (at 165.1 73.66 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 165.1 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 165.1 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 167.005 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1422,7 +1422,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D9") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1431,7 +1431,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 203.2 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6bb9d67-9894-4965-842d-a9e30cd4275b)
-    (property "Reference" "SW17" (at 203.2 81.28 0)
+    (property "Reference" "SW10" (at 203.2 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 203.2 83.82 0)
@@ -1448,7 +1448,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW17") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -1457,11 +1457,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 180.34 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9a02e47-2fc0-41ac-b885-9ff79afdae43)
-    (property "Reference" "D14" (at 177.8 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D9" (at 182.88 91.44 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 182.88 92.71 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 182.88 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 184.785 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1474,7 +1474,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D14") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1483,7 +1483,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 203.2 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfb928b5-b0e5-4f4c-88a6-898a9fed0b61)
-    (property "Reference" "SW18" (at 203.2 99.06 0)
+    (property "Reference" "SW15" (at 203.2 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 203.2 101.6 0)
@@ -1500,7 +1500,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW18") (unit 1)
+          (reference "SW15") (unit 1)
         )
       )
     )
@@ -1509,11 +1509,11 @@
   (symbol (lib_id "Diode:1N4448W") (at 144.78 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5ab944a-c070-4276-8899-ce189d7f6ba5)
-    (property "Reference" "D5" (at 142.24 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D2" (at 147.32 73.66 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1N4448W" (at 147.32 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "1N4448W" (at 147.32 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123" (at 149.225 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1526,7 +1526,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1535,7 +1535,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5f95312-783f-4ce0-b972-f8fca0ec001c)
-    (property "Reference" "SW14" (at 185.42 81.28 0)
+    (property "Reference" "SW9" (at 185.42 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 185.42 83.82 0)
@@ -1552,7 +1552,7 @@
     (instances
       (project "KBD"
         (path "/55f2016c-a3c8-4668-bcda-098c018a0472"
-          (reference "SW14") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
