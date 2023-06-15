@@ -1,0 +1,17 @@
+When it uses only bluetooth 
+	
+	There is no need for I2C, so I can use LED's.
+
+
+Two halves are connected via bluetooth and master is connected via USB
+
+	I can use one of the I2C pins for led, but I wont be able to use TRRS.
+	So I need some kind of switch to connect one of I2C pins to LED input. 
+	
+
+Two ihalves are connected via TRRS and master is connected via USB
+
+	There is no free pins
+	-LED
+
+
